@@ -1,0 +1,20 @@
+/*Setting*/
+@import "./setting.css";
+
+/* Desktop */
+@import "./desktop/index/header.css";
+@import "./desktop/index/megamenu.css";
+@import "./desktop/index/story.css";
+@import "./desktop/index/slider.css";
+@import "./desktop/index/market.css";
+@import "./desktop/index/wonderfull.css";
+@import "./desktop/index/supermarket.css";
+@import "./desktop/index/imageslide.css";
+@import "./desktop/index/banner.css";
+@import "./desktop/index/digiplus.css";
+@import "./desktop/index/digiclub.css";
+@import "./desktop/index/topic.css";
+@import "./desktop/index/reading.css";
+@import "./desktop/index/footer.css";
+
+/* Mobile */

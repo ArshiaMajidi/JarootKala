@@ -1,0 +1,88 @@
+.wonderfull {
+  width: 100%;
+  height: 300px;
+}
+.wonder__Center {
+  width: 80%;
+  margin: 0 auto;
+  height: inherit;
+  background-color: crimson;
+  padding: 20px 0;
+  border-radius: 20px;
+  border: 2px solid crimson;
+}
+.activeWonderFull {
+  width: 10rem !important;
+  background-color: crimson;
+}
+.activeWonderFull div {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center !important;
+  flex-flow: column;
+}
+.activeWonderFull div svg:nth-of-type(1) {
+  width: 92px;
+  height: 77px;
+}
+.activeWonderFull div img {
+  width: 7rem;
+  height: 7rem;
+}
+.activeWonderFull a {
+  font-family: var(--font-family);
+  font-size: 12px;
+  color: whitesmoke;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 2px;
+}
+.activeWonderFull a svg g {
+  fill: whitesmoke;
+}
+.first__wonder {
+  border-radius: 0 10px 10px 0;
+}
+.wonder a {
+  height: 100%;
+  justify-content: center;
+  text-decoration: none;
+  display: flex;
+  flex-flow: column wrap;
+  row-gap: 10px;
+}
+.wonder img {
+  width: 90%;
+}
+.wonder div {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+.wonder div:nth-of-type(2) {
+  flex-flow: row-reverse wrap;
+  justify-content: space-between;
+  font-family: var(--font-family-number);
+  color: #2b2b2b;
+  padding: 0 10px;
+}
+.wonder div:nth-of-type(2) h5 {
+  background-color: red;
+  border-radius: 10px;
+  color: whitesmoke;
+  width: fit-content;
+  padding: 0 10px;
+}
+.wonder div:nth-of-type(3) {
+  flex-flow: row-reverse wrap;
+  justify-content: space-between;
+  font-family: var(--font-family-number);
+  color: #2b2b2b;
+  padding: 0 10px;
+  text-decoration: line-through;
+  font-size: 14px;
+  opacity: 0.5;
+}

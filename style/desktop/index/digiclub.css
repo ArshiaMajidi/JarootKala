@@ -1,0 +1,121 @@
+.digiclub {
+  width: 88%;
+  height: 87px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin: 0 auto;
+  .digiclub__center {
+    width: 100%;
+    height: 84px;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #007295;
+    border-radius: 20px;
+    .club__right {
+      width: 40%;
+      height: inherit;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .right__1 {
+        width: 30%;
+        height: inherit;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        & svg {
+          width: 120px;
+          height: auto;
+        }
+      }
+      .right__2 {
+        width: 60%;
+        height: inherit;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 10px;
+        text-transform: capitalize;
+        color: #ffffff;
+        column-gap: 5px;
+        & span {
+          font-size: 35px;
+          font-family: var(--font-family-salamat);
+          transform: translateY(-3px);
+        }
+        & svg {
+          width: 25px;
+          height: auto;
+          transform: translateY(-3px);
+        }
+      }
+    }
+    .club__left {
+      width: 60%;
+      height: inherit;
+      background-color: #007295;
+      border-radius: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .left__center {
+        width: 100%;
+        height: 67px;
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        .DIGIIMGAE_1 {
+          background-image: url("https://www.digikala.com/statics/img/png/digiclub/awards.webp");
+          background-position: center center;
+          background-size: cover;
+        }
+        .DIGIIMGAE_2 {
+          background-image: url("https://www.digikala.com/statics/img/png/digiclub/missions.webp");
+          background-position: center center;
+          background-size: cover;
+        }
+        .DIGIIMGAE_3 {
+          background-image: url("https://www.digikala.com/statics/img/png/digiclub/wheel-spinner.webp");
+          background-position: center center;
+          background-size: cover;
+        }
+
+        .club {
+          width: 32%;
+          height: 63px;
+          display: flex;
+          justify-content: center;
+          align-items: right;
+          background-color: #ffffff;
+          column-gap: 5px;
+          flex-flow: column wrap;
+
+          & a {
+            text-decoration: none;
+            background-image: url();
+            font-size: 12px;
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            color: #2b2b2b;
+            font-weight: bold;
+            font-family: var(--font-family);
+            transform: translateX(-20px);
+            & p {
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              column-gap: 5px;
+              & svg {
+                width: 20px;
+                height: auto;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

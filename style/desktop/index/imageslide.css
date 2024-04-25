@@ -1,0 +1,21 @@
+.images__slides {
+  width: 80%;
+  margin: 0 auto;
+  .images__slides__center {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    .image__1,
+    .image__2,
+    .image__3,
+    .image__4 {
+      & img {
+        width: 295px;
+        border-radius: 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+.market{
+    width: 100%;
+    height: 130px;
+}
+.market .centerMarket{
+    width: 80%;
+    margin: 0 auto;
+    height: inherit;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.market .centerMarket a{
+    text-decoration: none;
+}
+.market .centerMarket div{
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+.market .centerMarket img{
+    width: 50px;
+    height: 50px;
+    border-radius: 16px;
+    margin-bottom: 10px;
+}
+.market .centerMarket h5{
+    font-family: var(--font-family); 
+    color: #2b2b2b;
+    opacity: 0.8;
+    font-size: 10px;
+}
+
